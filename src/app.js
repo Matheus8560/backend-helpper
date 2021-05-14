@@ -7,7 +7,7 @@ class App{
     constructor(){
         this.server = express();
 
-        mongoose.connect('mongodb+srv://devhouse:devhouse@devhouse.l1eem.mongodb.net/helpper?retryWrites=true&w=majority',{
+        mongoose.connect('Adicione aqui sua string de conexao com mongodb',{
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
